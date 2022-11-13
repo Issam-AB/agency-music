@@ -32,3 +32,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	background-color: black;
+	overflow-x: hidden;
+	color: #e7e7e7;
+}
+::-webkit-scrollbar {
+	display: none;
+}
