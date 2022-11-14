@@ -3,6 +3,7 @@ import { React } from "react";
 import Awwards from "../components/awwards";
 import Concepts from "../components/Concepts";
 import Header from "../components/Header";
+import Office from "../components/Office";
 import Publications from "../components/Publications";
 import SwiperSliderComponent from "../components/SwiperSliderComponent";
 import WhoWeAre from "../components/WhoWeAre";
@@ -21,6 +22,7 @@ export default function Home() {
       <Concepts />
       <Publications />
       <Awwards />
+      <Office />
     </div>
   );
 }
