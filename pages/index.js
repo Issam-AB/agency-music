@@ -2,6 +2,7 @@ import Head from "next/head";
 import { React } from "react";
 import Awwards from "../components/awwards";
 import Concepts from "../components/Concepts";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Office from "../components/Office";
 import Publications from "../components/Publications";
@@ -23,6 +24,7 @@ export default function Home() {
       <Publications />
       <Awwards />
       <Office />
+      <Footer />
     </div>
   );
 }
