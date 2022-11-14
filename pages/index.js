@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { React } from "react";
+import Awwards from "../components/awwards";
 import Concepts from "../components/Concepts";
 import Header from "../components/Header";
 import Publications from "../components/Publications";
@@ -19,6 +20,7 @@ export default function Home() {
       <WhoWeAre />
       <Concepts />
       <Publications />
+      <Awwards />
     </div>
   );
 }
