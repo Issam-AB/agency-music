@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="relative font-neutralFace px-3">
       <div className="hidden lg:block mb-[10vh]">
         <div className="mx-1 font-monument font-semibold py-10 text-[13.2vmax] my-1 leading-none">
-          TAIMOOR <br /> SHAHZADA
+          Issam <br /ABOULFADL
         </div>
       </div>
       <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
